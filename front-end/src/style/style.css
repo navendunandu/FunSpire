@@ -1,0 +1,18 @@
+.r-body{
+    background: url('../../public/g-bg.jpg');
+    height: 100vh;
+    background-size: contain;
+    padding: 3rem 5rem;
+}
+
+.r-container{
+    background-color: rgba(255, 255, 255, 0.984);
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px #abababa0;
+    overflow-y: scroll;
+}
+
+.r-container::-webkit-scrollbar {
+    display: none;
+  }
